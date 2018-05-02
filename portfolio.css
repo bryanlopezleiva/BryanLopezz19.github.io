@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+#nav-bar {
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+
+}
+
+#nav-bar a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+a {
+ color: black;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+.mappic {
+ object-fit: cover;
+ width: 200px;
+ height: 100px;    
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+p {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 50px;
+    width: 80%;
+    
+}
+
+#map {
+  height: 450px;
+  border-radius: 25px;
+}
+
+.main {
+  background-color: rgba(34, 55, 71, 0.8);
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 350px;
+  padding: 25px;
+  color: #add4ff;
+  font-family: 'Acme', sans-serif;
+  font-size: 16px;
+}
+    
+ img{
+  margin-left: 10px;  
+ }
+
+object{
+display: block;
+margin-left: auto;
+margin-right: auto;    
+}
+
+#sketch-holder {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.aboutMe {
+    border: solid black 2px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
